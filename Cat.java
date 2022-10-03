@@ -18,6 +18,7 @@ public class Cat {
         }
       }
     }
-    
+    // System.out.printf("This is %s who is %s and likes to cuddle", this.name, this.age);
+    // System.out.printf("This is %s who is %s and doesn't like cuddles", this.name, this.age);
     
 
