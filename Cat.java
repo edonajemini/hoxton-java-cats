@@ -1,19 +1,23 @@
 public class Cat {
-        String name;
-        int age;
-        boolean likesCuddles;
+     public String name;
+     public int age;
+     public boolean likesCuddles;
 
-    public static void main(String[] args) {
-        Cat cat = new Cat();
-        cat.name = "Muff";
-        cat.age = 2;
-        cat.likesCuddles = true;
-        if(cat.likesCuddles){
-            System.out.println("This is " + cat.name + " who is " + cat.age + " and likes to cuddle!");
+    public Cat(String name, int age, boolean likesCuddles) {
+        this.name = name;
+        this.age = age;
+        this.likesCuddles = likesCuddles;
+        
+    }
+    void showCatInfo() {
+        if(this.likesCuddles){
+            System.out.println("This is " + this.name + " who is " + this.age + " and likes to cuddle!");
         }
         else{
-            System.out.println("This is " + cat.name + " who is " + cat.age + " and doesnt like to cuddle!");
+            System.out.println("This is " + this.name + " who is " + this.age + " and doesnt like to cuddle!");
         }
+      }
     }
     
-}
+    
+
