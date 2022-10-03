@@ -7,11 +7,12 @@ public class Cat {
         Cat cat = new Cat();
         cat.name = "Muff";
         cat.age = 2;
-        if(cat.likesCuddles = true){
+        cat.likesCuddles = true;
+        if(cat.likesCuddles){
             System.out.println("This is " + cat.name + " who is " + cat.age + " and likes to cuddle!");
         }
         else{
-            System.out.println("This is " + cat.name + "who is " + cat.age + "and doesnt like to cuddle!");
+            System.out.println("This is " + cat.name + " who is " + cat.age + " and doesnt like to cuddle!");
         }
     }
     
